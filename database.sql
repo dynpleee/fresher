@@ -1,4 +1,4 @@
-/* create database fresher
+create database fresher
 
  USE fresher;
 
@@ -42,4 +42,3 @@ CREATE TABLE Scores (
     final_score FLOAT AS ((assignment1 + assignment2 + assignment3) / 3),
     FOREIGN KEY (fresher_id) REFERENCES Fresher(fresher_id)
 );
-*/
