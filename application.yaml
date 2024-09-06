@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fresher
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/fresher"
+    username: root
+    password: duyen2306
+
+jpa:
+  hibernate:
+    ddl-auto: update
+  show-sql: true
